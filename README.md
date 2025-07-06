@@ -27,23 +27,24 @@ Users can enter a topic (like `life` or `success`) and get 3 motivational quotes
 
 ## 🧑‍💻 Getting Started
 
-🔹 1. Clone the Repository
+🔹 **1. Clone the Repository**
 
+```bash
 git clone https://github.com/Mariam-04/nextjs-quote-generator.git
 cd nextjs-quote-generator
 
-🔹2. Install Dependencies**
+
+🔹 **2. Install Dependencies**
 
 pnpm install
 # or use npm install or yarn install
 
-🔹3. Run the Development Server
+🔹**3. Run the Development Server**
 
 pnpm dev
 # or npm run dev
 
 📁 Folder Structure
-.
 ├── components/        # UI components (Input, Button, Card, etc.)
 ├── lib/quotes.ts      # Static quotes array
 ├── app/page.tsx       # Main quote generator logic
